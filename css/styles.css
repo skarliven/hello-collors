@@ -1,0 +1,225 @@
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	font-family: 'Inconsolata', monospace;
+}
+.navigation {
+	text-align: center;
+}
+.navigation li {
+	display: inline-block;
+	margin: 0 15px;
+	
+	
+}
+.navigation li a {
+	color: #8e51d2;
+	text-decoration: none;
+}
+
+nav {
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	right: 0;
+	font-family: 'Prata', serif;
+	font-size: 22px;
+	background-color: azure;
+}
+h1, h2, h3, h4, h5 {
+	font-family: 'Prata', serif;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 150px;
+	margin: 0;
+	animation: bounce 4s infinite;
+
+}
+h2 {
+	font-size: 100px;
+}
+h3 {
+	font-size: 50px;
+}
+
+h4 {
+	font-size: 32px;
+	color: #16736e ;
+	background-color: #75e3dd;
+	display: inline-block;
+	margin: 0;
+	padding: 4px;
+}
+p {
+	font-size: 18px;
+	line-height: 145%;
+}
+.works {
+	color: #16736e;
+}
+.works h2 {
+	color: #D1B6E1;
+}
+.works-img {
+	position:  relative;
+	width: 100%;
+}
+
+.works h4{
+	position: absolute;
+	z-index: 1;
+	top: -25px;
+	
+}
+.works h4.right-aligned {
+	right: 0;
+}
+.extra-gutters {
+	padding: 0 60px;
+}
+
+.right-aligned {
+	text-align: right;
+}
+
+.myteam h2 {
+	color: #519D9E;
+}
+.contact h2 {
+	color: #58C9B9;
+}
+
+.works h3 {
+	color: #9DC8C8;
+}
+.myteam h3 {
+	color: #9055A2;
+	margin: 0 0 70px 0;
+	line-height: 100%;
+}
+
+.img-margin {
+	margin-bottom: 60px;
+
+
+}
+
+.works a {
+	letter-spacing: 3px;
+	color: #2ce6dc;
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+.left-col, .right-col {
+	color: #fff;
+	text-align: center;
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+.scroll {
+	color: #D1B6E1;
+	text-align: center;
+}
+.left-col {
+	background-color: #519D9E;
+	
+}
+
+.right-col {
+	background-color: #D1B6E1;
+}
+
+.top-container {
+	width: 500px;
+	margin: 0 auto;
+
+}
+img {
+	max-width: 100%;
+}
+footer {
+	background-color: #D1B6E1;
+	min-height: 220px;
+	background-image: url(../img/socialmedia.svg);
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-position: center;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60px;
+
+}
+
+.social-icon {
+	height: 60px;
+	margin:  10px 20px;
+}
+.social-icons-container{
+	text-align: center;
+
+}
+
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+	h1 {
+    font-size: 80px;
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
+
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) { 
+
+}
